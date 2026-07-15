@@ -1,0 +1,9 @@
+version: 1
+project:
+  id: scrollytelling-iris
+  title: Scroll test
+  plugins:
+    - shapes.mjs
+
+site:
+  template: book-theme
