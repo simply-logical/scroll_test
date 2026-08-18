@@ -3,7 +3,10 @@ project:
   id: scrollytelling-iris
   title: Scroll test
   plugins:
-    - shapes.mjs
+    #- shapes.mjs
+    #- card_media.mjs
+    - scrollytelling-images.mjs
 
 site:
   template: book-theme
+
