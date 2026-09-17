@@ -6,7 +6,7 @@ project:
     #- shapes.mjs
     #- card_media.mjs
     - scrollytelling-images.mjs
+    - dynamic-image-scrollytelling.mjs
 
 site:
   template: book-theme
-
