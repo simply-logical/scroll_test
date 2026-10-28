@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from languages_dataset import *
 
-datasets = load_default_dataset()
-data = pd.read_csv('bigrams_en.csv')
+data = pd.read_csv('char_bigrams_en.csv')
 plt.bar(data['bigram'][:5], data['frequency'][:5])
 plt.title('Bigrams - English')
 plt.xticks(rotation=45, ha="right", fontsize=11)
@@ -23,8 +22,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from languages_dataset import *
 
-datasets = load_default_dataset()
-data = pd.read_csv('bigrams_de.csv')
+data = pd.read_csv('char_bigrams_de.csv')
 plt.bar(data['bigram'][:5], data['frequency'][:5])
 plt.title('Bigrams - German')
 plt.xticks(rotation=45, ha="right", fontsize=11)
@@ -38,8 +36,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from languages_dataset import *
 
-datasets = load_default_dataset()
-data = pd.read_csv('bigrams_nl.csv')
+data = pd.read_csv('char_bigrams_nl.csv')
 plt.bar(data['bigram'][:5], data['frequency'][:5])
 plt.title('Bigrams - Dutch')
 plt.xticks(rotation=45, ha="right", fontsize=11)
